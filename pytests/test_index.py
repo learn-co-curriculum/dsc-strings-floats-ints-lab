@@ -32,4 +32,4 @@ def test_phone_num_one():
 
 def test_phone_num_two():
     assert type(phone_num_two) == type(100), "the variable, phone_num_two, must be assigned to a integer"
-    assert phone_num_one == 7285553336, "the integer assigned to phone_num_two must be two numbers more than the string 7285553334"
+    assert phone_num_two == 7285553336, "the integer assigned to phone_num_two must be two numbers more than the string 7285553334"
