@@ -2,12 +2,11 @@
 # Introduction to Variables: Strings And Numeric Types - Lab
 
 ## Introduction
-Now that we have learned about working with different types of data in Python: strings, numbers (ints and floats), and booleans, let's put that knowledge to the test.
-
-In this lab we'll imagine that we were at a nice social gathering and exchanged business cards with a few people. One of the business cards belongs to Art Vandelay, a new travel agent. We want to use our programming skills to format this information correctly. 
+Now that we have learned about working with different types of data in Python: strings, numbers (ints and floats), and booleans, let's put that knowledge to the test. In this lab we'll imagine that we were at a nice social gathering and exchanged business cards with a few people. One of the business cards belongs to Art Vandelay, a new travel agent. We want to use our programming skills to format this information correctly. 
 
 ## Objectives
-* Understand, explain and use the correct data types (numeric types) for various types of information
+You will be able to:
+* Understand, explain and use the correct data types for various types of information
 
 ## Instructions
 
@@ -95,4 +94,4 @@ phone_num_two
 
 ### Summary
 
-Our first lab is done! Sweet. In this lab, we practiced working with string methods to operate on and answer questions about strings. We wrote methods that return Booleans and changed strings to integers in order to perform addition. So much of working with data is ensuring that it is properly formatted so we can then operate on it, and in this lab, we saw how to use code to do just that.
+In this lab, we practiced working with string methods to operate on and answer questions about strings. We wrote methods that return Booleans and changed strings to integers in order to perform addition. So much of working with data is ensuring that it is properly formatted so we can then operate on it, and in this lab, we saw how to use code to do just that.
