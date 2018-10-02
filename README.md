@@ -49,28 +49,32 @@ Our first problem will be to capitalize the first letter of each word in `"art v
 
 
 ```python
-"art vandelay" # 'Art Vandelay'
+art_vandelay = "art vandelay" # 'Art Vandelay'
+art_vandelay
 ```
 
 Now let's uppercase all of the letters of "Ceo".
 
 
 ```python
-"Ceo" # 'CEO'
+ceo = "Ceo" # 'CEO'
+ceo
 ```
 
 Next we will need our code to answer a question about our email addresses. Every email address should end with ".com". Find the right string method to check if the email address ends with `".com"` and return `True` or `False` accordingly. 
 
 
 ```python
-"art.vandelay@vandelay.co" # False
+ends_with_com = "art.vandelay@vandelay.co" # False
+ends_with_com
 ```
 
 As you can see below, the website `"vandelay.com"` is not preceded by `"www."`. We can perform what is called string concatenation to fix this! Use the plus sign, `'+'`, to change the website `'vandelay.com'` to the string `'www.vandelay.com'` by prepending `'www.'`.
 
 
 ```python
-'vandelay.com' # 'www.vandelay.com'
+web_address = 'vandelay.com' # 'www.vandelay.com'
+web_address
 ```
 
 ### Working with numbers
@@ -79,12 +83,14 @@ Finally, Mr. Vandelay gave us his phone number, but he actually has two other ph
 
 
 ```python
-"7285553334" # 7285553335
+phone_num_one = "7285553334" # 7285553335
+phone_num_one 
 ```
 
 
 ```python
-"7285553334" # 7285553336
+phone_num_two = "7285553334" # 7285553336
+phone_num_two
 ```
 
 ### Summary
