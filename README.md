@@ -19,7 +19,7 @@ Yeah, Mr. Vandelay may not be the best person to get to know or the best at desi
 
 So as data scientists, we often need to clean and organize data before we can make sense of it.  Let's get to work. 
 
-### Solving our first lab
+## Solving our First Lab
 
 This is our first lab, and here we'll see that there is some data already provided for us.  Next to the data, we will see a comment indicating what the data should look like after we change it.  
 
@@ -43,13 +43,13 @@ To get our output to match the comment we will change it to the following:
 "art vandelay".upper() # 'ART VANDELAY'
 ```
 
-### Get going with strings
+## Get Going with Strings
 
 Our first problem will be to capitalize the first letter of each word in `"art vandelay"`. Find the correct string method to capitlize both names.
 
 
 ```python
-art_vandelay = "art vandelay" # 'Art Vandelay'
+art_vandelay = "art vandelay".title() # 'Art Vandelay'
 art_vandelay
 ```
 
@@ -57,7 +57,7 @@ Now let's uppercase all of the letters of "Ceo".
 
 
 ```python
-ceo = "Ceo" # 'CEO'
+ceo = "Ceo".upper() # 'CEO'
 ceo
 ```
 
@@ -65,7 +65,7 @@ Next we will need our code to answer a question about our email addresses. Every
 
 
 ```python
-ends_with_com = "art.vandelay@vandelay.co" # False
+ends_with_com = "art.vandelay@vandelay.co".endswith('.com') # False
 ends_with_com
 ```
 
@@ -73,26 +73,26 @@ As you can see below, the website `"vandelay.com"` is not preceded by `"www."`. 
 
 
 ```python
-web_address = 'vandelay.com' # 'www.vandelay.com'
+web_address = 'www.' + 'vandelay.com' # 'www.vandelay.com'
 web_address
 ```
 
-### Working with numbers
+## Working with Numbers
 
 Finally, Mr. Vandelay gave us his phone number, but he actually has two other phone numbers that are different from the one listed.  All three numbers are basically the same with the exception of the ending. Below, start by coercing the first phone number, which is currently a string, to an `int` and add one. Next do the same to the second phone number but increase it by two.
 
 
 ```python
-phone_num_one = "7285553334" # 7285553335
+phone_num_one = int("7285553334") + 1 # 7285553335
 phone_num_one 
 ```
 
 
 ```python
-phone_num_two = "7285553334" # 7285553336
+phone_num_two = int("7285553334") + 2 # 7285553336
 phone_num_two
 ```
 
-### Summary
+## Summary
 
 Our first lab is done! Sweet. In this lab, we practiced working with string methods to operate on and answer questions about strings. We wrote methods that return Booleans and changed strings to integers in order to perform addition. So much of working with data is ensuring that it is properly formatted so we can then operate on it, and in this lab, we saw how to use code to do just that.
