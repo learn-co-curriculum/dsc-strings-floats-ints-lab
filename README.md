@@ -1,5 +1,5 @@
 
-# Introduction to Variables: Strings And Numeric Types - Lab
+# Introduction to Variables: Strings and Numeric Types - Lab
 
 ## Introduction
 Now that we have learned about working with different types of data in Python: strings, numbers (ints and floats), and booleans, let's put that knowledge to the test. In this lab we'll imagine that we were at a nice social gathering and exchanged business cards with a few people. One of the business cards belongs to Art Vandelay, a new travel agent. We want to use our programming skills to format this information correctly. 
@@ -18,7 +18,7 @@ Yeah, Mr. Vandelay may not be the best person to get to know or the best at desi
 
 So as data scientists, we often need to clean and organize data before we can make sense of it.  Let's get to work. 
 
-### Solving our first lab
+## Solving our first lab
 
 This is our first lab, and here we'll see that there is some data already provided for us.  Next to the data, we will see a comment indicating what the data should look like after we change it.  
 
@@ -42,7 +42,7 @@ To get our output to match the comment we will change it to the following:
 "art vandelay".upper() # 'ART VANDELAY'
 ```
 
-### Get going with strings
+## Get Going with Strings
 
 Our first problem will be to capitalize the first letter of each word in `"art vandelay"`. Find the correct string method to capitlize both names.
 
@@ -76,7 +76,7 @@ web_address = 'vandelay.com' # 'www.vandelay.com'
 web_address
 ```
 
-### Working with numbers
+## Working with numbers
 
 Finally, Mr. Vandelay gave us his phone number, but he actually has two other phone numbers that are different from the one listed.  All three numbers are basically the same with the exception of the ending. Below, start by coercing the first phone number, which is currently a string, to an `int` and add one. Next do the same to the second phone number but increase it by two.
 
@@ -92,6 +92,6 @@ phone_num_two = "7285553334" # 7285553336
 phone_num_two
 ```
 
-### Summary
+## Summary
 
 In this lab, we practiced working with string methods to operate on and answer questions about strings. We wrote methods that return Booleans and changed strings to integers in order to perform addition. So much of working with data is ensuring that it is properly formatted so we can then operate on it, and in this lab, we saw how to use code to do just that.
