@@ -18,7 +18,7 @@ Yeah, Mr. Vandelay may not be the best person to get to know or the best at desi
 
 So as data scientists, we often need to clean and organize data before we can make sense of it.  Let's get to work. 
 
-## Solving our first lab
+## Solving our First Lab
 
 This is our first lab, and here we'll see that there is some data already provided for us.  Next to the data, we will see a comment indicating what the data should look like after we change it.  
 
@@ -76,7 +76,7 @@ web_address = 'vandelay.com' # 'www.vandelay.com'
 web_address
 ```
 
-## Working with numbers
+## Working with Numbers
 
 Finally, Mr. Vandelay gave us his phone number, but he actually has two other phone numbers that are different from the one listed.  All three numbers are basically the same with the exception of the ending. Below, start by coercing the first phone number, which is currently a string, to an `int` and add one. Next do the same to the second phone number but increase it by two.
 
