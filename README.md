@@ -31,6 +31,12 @@ For example, let's say we want to capitalize all of the letters of "art vandlay"
 "art vandelay" # "ART VANDELAY"
 ```
 
+
+```python
+# __SOLUTION__ 
+"art vandelay" # "ART VANDELAY"
+```
+
 > **Reminder:** *to **run** the code in a jupyter notebook, press shift + enter after selecting the cell you would like to run.*
 
 > **Note:** In future labs, Learn will check our code to ensure that we did it correctly.  But for our first lab, this works fine.
@@ -39,6 +45,12 @@ To get our output to match the comment we will change it to the following:
 
 
 ```python
+"art vandelay".upper() # 'ART VANDELAY'
+```
+
+
+```python
+# __SOLUTION__ 
 "art vandelay".upper() # 'ART VANDELAY'
 ```
 
@@ -52,11 +64,25 @@ art_vandelay = "art vandelay" # 'Art Vandelay'
 art_vandelay
 ```
 
+
+```python
+# __SOLUTION__ 
+art_vandelay = "art vandelay".title() # 'Art Vandelay'
+art_vandelay
+```
+
 Now let's uppercase all of the letters of "Ceo".
 
 
 ```python
 ceo = "Ceo" # 'CEO'
+ceo
+```
+
+
+```python
+# __SOLUTION__ 
+ceo = "Ceo".upper() # 'CEO'
 ceo
 ```
 
@@ -68,11 +94,25 @@ ends_with_com = "art.vandelay@vandelay.co" # False
 ends_with_com
 ```
 
+
+```python
+# __SOLUTION__ 
+ends_with_com = "art.vandelay@vandelay.co".endswith('.com') # False
+ends_with_com
+```
+
 As you can see below, the website `"vandelay.com"` is not preceded by `"www."`. We can perform what is called string concatenation to fix this! Use the plus sign, `'+'`, to change the website `'vandelay.com'` to the string `'www.vandelay.com'` by prepending `'www.'`.
 
 
 ```python
 web_address = 'vandelay.com' # 'www.vandelay.com'
+web_address
+```
+
+
+```python
+# __SOLUTION__ 
+web_address = 'www.' + 'vandelay.com' # 'www.vandelay.com'
 web_address
 ```
 
@@ -88,7 +128,21 @@ phone_num_one
 
 
 ```python
+# __SOLUTION__ 
+phone_num_one = int("7285553334") + 1 # 7285553335
+phone_num_one 
+```
+
+
+```python
 phone_num_two = "7285553334" # 7285553336
+phone_num_two
+```
+
+
+```python
+# __SOLUTION__ 
+phone_num_two = int("7285553334") + 2 # 7285553336
 phone_num_two
 ```
 
