@@ -14,9 +14,9 @@ The next morning we take out the business card, ready to format it using our pro
 
 ![](https://learn-verified.s3.amazonaws.com/data-science-assets/biz-card-mistakes.jpg)
 
-Yeah, Mr. Vandelay may not be the best person to get to know or the best at designing business cards, but like Mr. Vandelay, we know that people enter incorrect information on forms all the time.
+Yeah, Mr. Vandelay may not be the best at designing business cards, but like Mr. Vandelay, we know that people enter incorrect information on forms all the time.
 
-So as data scientists, we often need to clean and organize data before we can make sense of it.  Let's get to work. 
+So as Data Scientists, we often need to clean and organize data before we can make sense of it.  Let's get to work. 
 
 ## Solving our First Lab
 
@@ -35,7 +35,7 @@ For example, let's say we want to capitalize all of the letters of "art vandlay"
 
 > **Note:** In future labs, Learn will check our code to ensure that we did it correctly.  But for our first lab, this works fine.
 
-To get our output to match the comment we will change it to the following:
+To get our output to match the comment we can use the `upper()` method as shown here:
 
 
 ```python
@@ -44,7 +44,7 @@ To get our output to match the comment we will change it to the following:
 
 ## Get Going with Strings
 
-Our first problem will be to capitalize the first letter of each word in `"art vandelay"`. Find the correct string method to capitlize both names.
+Our first problem will be to capitalize the first letter of each word in `"art vandelay"`. Find the correct string method to capitalize both the first and last names.
 
 
 ```python
@@ -52,7 +52,7 @@ art_vandelay = "art vandelay" # 'Art Vandelay'
 art_vandelay
 ```
 
-Now let's uppercase all of the letters of "Ceo".
+Now let's turn all the letters of "Ceo" to uppercase.
 
 
 ```python
@@ -60,7 +60,7 @@ ceo = "Ceo" # 'CEO'
 ceo
 ```
 
-Next we will need our code to answer a question about our email addresses. Every email address should end with ".com". Find the right string method to check if the email address ends with `".com"` and return `True` or `False` accordingly. 
+Next we will need our code to answer a question about email addresses. Every email address should end with ".com". Find the right string method to check if the email address ends with `".com"` and return `True` or `False` accordingly. 
 
 
 ```python
@@ -78,7 +78,7 @@ web_address
 
 ## Working with Numbers
 
-Finally, Mr. Vandelay gave us his phone number, but he actually has two other phone numbers that are different from the one listed.  All three numbers are basically the same with the exception of the ending. Below, start by coercing the first phone number, which is currently a string, to an `int` and add one. Next do the same to the second phone number but increase it by two.
+Finally, Mr. Vandelay gave us his phone number, but he actually has two other phone numbers that are different from the one listed on his business card.  All three numbers are basically the same with the exception of the ending. Below, start by coercing the first phone number, which is currently a string, to an `int` and add one. Next do the same to the second phone number but increase it by two.
 
 
 ```python
