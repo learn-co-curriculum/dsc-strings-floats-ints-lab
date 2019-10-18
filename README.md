@@ -6,7 +6,9 @@ Now that we have learned about working with different types of data in Python: s
 
 ## Objectives
 You will be able to:
-* Understand, explain and use the correct data types for various types of information
+* Apply string methods to make changes to a string
+* Use concatenation to combine strings
+* Perform basic mathematical operations with numeric data types
 
 ## Instructions
 
