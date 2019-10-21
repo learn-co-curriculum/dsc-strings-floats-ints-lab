@@ -20,9 +20,9 @@ Yeah, Mr. Vandelay may not be the best at designing business cards, but like Mr.
 
 So as Data Scientists, we often need to clean and organize data before we can make sense of it.  Let's get to work. 
 
-## Solving our First Lab
+## Working on the Lab
 
-This is our first lab, and here we'll see that there is some data already provided for us.  Next to the data, we will see a comment indicating what the data should look like after we change it.  
+In this lab, we'll see that there is some data already provided for us.  Next to the data, we will see a comment indicating what the data should look like after we change it.  
 
 > Comments are indicated in Python by a `#` followed by text. They do not get run and will not affect our code. Here we are using them to show what the intended output should be.
 
@@ -40,8 +40,6 @@ For example, let's say we want to capitalize all of the letters of "art vandlay"
 ```
 
 > **Reminder:** *to **run** the code in a jupyter notebook, press shift + enter after selecting the cell you would like to run.*
-
-> **Note:** In future labs, Learn will check our code to ensure that we did it correctly.  But for our first lab, this works fine.
 
 To get our output to match the comment we can use the `upper()` method as shown here:
 
