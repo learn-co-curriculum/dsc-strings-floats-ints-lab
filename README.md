@@ -26,15 +26,15 @@ In this lab, we'll see that there is some data already provided for us.  Next to
 
 > Comments are indicated in Python by a `#` followed by text. They do not get run and will not affect our code. Here we are using them to show what the intended output should be.
 
-For example, let's say we want to capitalize all of the letters of "art vandlay".  We'll see the following:
+For example, let's say we want to capitalize all of the letters of "art vandelay".  We'll see the following:
 
 
-```python
+```
 "art vandelay" # "ART VANDELAY"
 ```
 
 
-```python
+```
 # __SOLUTION__ 
 "art vandelay" # "ART VANDELAY"
 ```
@@ -44,12 +44,12 @@ For example, let's say we want to capitalize all of the letters of "art vandlay"
 To get our output to match the comment we can use the `upper()` method as shown here:
 
 
-```python
+```
 "art vandelay".upper() # 'ART VANDELAY'
 ```
 
 
-```python
+```
 # __SOLUTION__ 
 "art vandelay".upper() # 'ART VANDELAY'
 ```
@@ -59,13 +59,13 @@ To get our output to match the comment we can use the `upper()` method as shown 
 Our first problem will be to capitalize the first letter of each word in `"art vandelay"`. Find the correct string method to capitalize both the first and last names.
 
 
-```python
+```
 art_vandelay = "art vandelay" # 'Art Vandelay'
 art_vandelay
 ```
 
 
-```python
+```
 # __SOLUTION__ 
 art_vandelay = "art vandelay".title() # 'Art Vandelay'
 art_vandelay
@@ -74,13 +74,13 @@ art_vandelay
 Now let's turn all the letters of "Ceo" to uppercase.
 
 
-```python
+```
 ceo = "Ceo" # 'CEO'
 ceo
 ```
 
 
-```python
+```
 # __SOLUTION__ 
 ceo = "Ceo".upper() # 'CEO'
 ceo
@@ -89,13 +89,13 @@ ceo
 Next we will need our code to answer a question about email addresses. Every email address should end with ".com". Find the right string method to check if the email address ends with `".com"` and return `True` or `False` accordingly. 
 
 
-```python
+```
 ends_with_com = "art.vandelay@vandelay.co" # False
 ends_with_com
 ```
 
 
-```python
+```
 # __SOLUTION__ 
 ends_with_com = "art.vandelay@vandelay.co".endswith('.com') # False
 ends_with_com
@@ -104,13 +104,13 @@ ends_with_com
 As you can see below, the website `"vandelay.com"` is not preceded by `"www."`. We can perform what is called string concatenation to fix this! Use the plus sign, `'+'`, to change the website `'vandelay.com'` to the string `'www.vandelay.com'` by prepending `'www.'`.
 
 
-```python
+```
 web_address = 'vandelay.com' # 'www.vandelay.com'
 web_address
 ```
 
 
-```python
+```
 # __SOLUTION__ 
 web_address = 'www.' + 'vandelay.com' # 'www.vandelay.com'
 web_address
@@ -121,26 +121,26 @@ web_address
 Finally, Mr. Vandelay gave us his phone number, but he actually has two other phone numbers that are different from the one listed on his business card.  All three numbers are basically the same with the exception of the ending. Below, start by coercing the first phone number, which is currently a string, to an `int` and add one. Next do the same to the second phone number but increase it by two.
 
 
-```python
+```
 phone_num_one = "7285553334" # 7285553335
 phone_num_one 
 ```
 
 
-```python
+```
 # __SOLUTION__ 
 phone_num_one = int("7285553334") + 1 # 7285553335
 phone_num_one 
 ```
 
 
-```python
+```
 phone_num_two = "7285553334" # 7285553336
 phone_num_two
 ```
 
 
-```python
+```
 # __SOLUTION__ 
 phone_num_two = int("7285553334") + 2 # 7285553336
 phone_num_two
