@@ -1,4 +1,4 @@
-# Introduction to Variables: Strings and Numeric Types - Lab
+# Introduction to Variables: Strings and Numeric Types - CodeAlong
 
 ## Introduction
 Now that we have learned about working with different types of data in Python: strings, numbers (ints and floats), and booleans, let's put that knowledge to the test. In this lab we'll imagine that we were at a nice social gathering and exchanged business cards with a few people. One of the business cards belongs to Art Vandelay, a new travel agent. We want to use our programming skills to format this information correctly. 
@@ -21,9 +21,7 @@ Yeah, Mr. Vandelay may not be the best at designing business cards, but like Mr.
 
 So as Data Scientists, we often need to clean and organize data before we can make sense of it.  Let's get to work. 
 
-## Working on the Lab
-
-In this lab, we'll see that there is some data already provided for us.  Next to the data, we will see a comment indicating what the data should look like after we change it.  
+In this exercise, we'll see that there is some data already provided for us.  Next to the data, we will see a comment indicating what the data should look like after we change it.  
 
 > Comments are indicated in Python by a `#` followed by text. They do not get run and will not affect our code. Here we are using them to show what the intended output should be.
 
